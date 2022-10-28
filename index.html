@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Developer Site</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <a class="header-logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип" />
+          </a>
+          <nav class="header-nav">
+            <a href="#categories">Работы</a>
+            <a href="#services">Услуги</a>
+            <a href="#question">Процесс</a>
+            <a href="#about">Обо мне</a>
+            <a href="#feedback">Контакты</a>
+          </nav>
+          <img class="header-man" src="img/man.png" alt="Человек" />
+        </div>
+        <div class="header-main">
+          <h1 class="header-title">
+            Сайты на Тильде, которые убеждают и продают
+          </h1>
+          <p class="header-subtitle">
+            Изучаем ваш бизнес. Узнаем, что важно клиентам, как
+            вызвать доверие и довести до заявки или покупки
+          </p>
+          <div class="header-btns">
+            <button class="btn btn--filled header-btn">
+              Связаться в Telegram
+            </button>
+            <button class="btn btn--outline header-btn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 4.33975L22 13L7 21.6603L7 4.33975Z"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+
+              Видеопортфолио
+            </button>
+          </div>
+          <div class="energy">
+            <img src="img/energy.png" alt="Энергия!!" />
+          </div>
+          <div class="chat">
+            <img src="img/chat.png" alt="Чат" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <section class="categories" id="categories">
+        <ul class="categories-items">
+          <li class="categories-items__item active">Все</li>
+          <li class="categories-items__item">Сайт под ключ</li>
+          <li class="categories-items__item">Разработка</li>
+          <li class="categories-items__item">Дизайн</li>
+        </ul>
+        <div class="categories-works">
+          <div class="categories-work categories-work--a"></div>
+          <div class="categories-work categories-work--b"></div>
+          <div class="categories-work categories-work--c"></div>
+          <div class="categories-work categories-work--d"></div>
+          <div class="categories-work categories-work--e"></div>
+          <div class="categories-work categories-work--f"></div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-wrapper">
+          <div class="about-flex">
+            <div class="about-photo"></div>
+            <div class="about-info">
+              <h3 class="section-title about-info__title">
+                Designer & Developer
+              </h3>
+              <div class="about-text">
+                <p>
+                  Меня зовут гигачад. За 3 года создания сайтов я
+                  основал свою студию, собрал людей, готовых к плотной
+                  работе.
+                </p>
+                <p>
+                  Запустили лендинг и б2б продукт для UFC. Работали с
+                  ВШЭ и МИЭМом. Запустили множество эвентовых проектов
+                  и брендинг. Готовы забирать в команду лучших,
+                  прокачивать их компетенции, и взращивать русское
+                  айти комьюнити,
+                </p>
+              </div>
+              <div class="about-statistic">
+                <div class="about-box">
+                  <div class="about-box__item">
+                    <div class="about-box__num">40+</div>
+                    <div class="about-box__name">
+                      Сайтов <br />
+                      запустили
+                    </div>
+                  </div>
+                  <div class="about-box__item">
+                    <div class="about-box__num">100%</div>
+                    <div class="about-box__name">
+                      Выполнено <br />
+                      в срок
+                    </div>
+                  </div>
+                  <div class="about-box__item">
+                    <div class="about-box__num">10+</div>
+                    <div class="about-box__name">
+                      Лет <br />
+                      опыта
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="innerto services" id="services">
+      <div class="container">
+        <h3 class="section-title services-title">Услуги</h3>
+        <div class="services-items">
+          <div class="services-item">
+            <div class="services-item__num">01</div>
+            <h5 class="services-item__title">Сайты на тильде</h5>
+            <p class="services-item__descr">
+              Изучаем ваш бизнес. Узнаем, что важно клиентам, как
+              вызвать доверие и довести до заявки или покупки
+            </p>
+            <div class="services-item__price">от 250 000 ₽</div>
+          </div>
+          <div class="services-item">
+            <div class="services-item__num">02</div>
+            <h5 class="services-item__title">Веб-дизайн</h5>
+            <p class="services-item__descr">
+              Если есть своя команда разработчиков или фрилансер. И
+              нужен только дизайн сайта без разработки
+            </p>
+            <div class="services-item__price">От 120 000 ₽</div>
+          </div>
+          <div class="services-item">
+            <div class="services-item__num">03</div>
+            <h5 class="services-item__title">Арт-дирекшн</h5>
+            <p class="services-item__descr">
+              Проконтролирую ваш отдел дизайна, выявлю недочеты в
+              дизайне и процессах работы в команде. Помогу наладить
+              коммуникацию
+            </p>
+            <div class="services-item__price">От 70 000 ₽</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="price" id="price">
+      <div class="container">
+        <h3 class="section-title price-title">Подсчет стоимости</h3>
+        <div class="price-flex">
+          <form class="price-bigform">
+            <select
+              class="price-select price-select--one"
+              name="price1"
+            >
+              <option value="init" selected>Тип работы</option>
+              <option value="x1">Работа 1</option>
+              <option value="x2">Работа 2</option>
+              <option value="x3">Работа 3</option>
+            </select>
+            <select
+              class="price-select price-select--two price-select--disabled"
+              name="price2"
+            >
+              <option value="init2">Насколько большой проект?</option>
+              <option value="big">Очень большой</option>
+              <option value="notbig">Небольшой</option>
+            </select>
+            <div class="checkbox">
+              <input type="checkbox" id="checkboxing1" />
+              <label for="checkboxing1"
+                >Да, я слышал про осеннюю школу. Интересно а после нее
+                будет егэ?</label
+              >
+            </div>
+            <button class="btn btn--outline price-btn">
+              Рассчитать стоимость
+            </button>
+          </form>
+          <div class="price-ex">
+            <h4 class="price-ex__title">Примерный подсчет:</h4>
+            <div class="price-infos">
+              <div class="price-infos__box">
+                <div class="price-infos__box-name">Стоимость</div>
+                <div class="price-infos__box-num">От 120 000 ₽</div>
+              </div>
+              <div class="price-infos__box">
+                <div class="price-infos__box-name">
+                  Примерные сроки
+                </div>
+                <div class="price-infos__box-num">14 рабочих дня</div>
+              </div>
+            </div>
+            <button class="btn btn--filled price-btn">
+              Обсудить проект
+            </button>
+          </div>
+        </div>
+        <div class="price-timer">
+          <img src="img/timer.png" alt="Таймер" />
+        </div>
+        <div class="price-man">
+          <img src="img/man.png" alt="Мэн" />
+        </div>
+      </div>
+    </section>
+    <section class="innerto question" id="question">
+      <div class="container">
+        <h3 class="section-title question-title">Вопрос-ответ</h3>
+        <div class="question-climbers">
+          <div class="question-climber">
+            <div class="question-inner">
+              <div class="question-text">Делаете только дизайн?</div>
+              <div class="question-status">
+                <img src="img/plus.svg" alt="Открыть или закрыть" />
+              </div>
+            </div>
+          </div>
+          <div class="question-climber open">
+            <div class="question-inner">
+              <div class="question-text">Почему тильда</div>
+              <div class="question-status">
+                <img src="img/plus.svg" alt="Открыть или закрыть" />
+              </div>
+            </div>
+            <p class="question-descr">
+              Тильда уже давно перестала быть просто конструктором.
+              Сейчас на платформе разрабатывают уникальные лендинги и
+              даже небольшие интернет магазины.
+            </p>
+            <div class="question-and">А еще:</div>
+            <ul>
+              <li>Не нужен программист, тильдой легко управлять</li>
+              <li>
+                Можно менять контент самому без помощи специалиста
+              </li>
+              <li>
+                Многие делают сайты именно на тильде. Например сбер,
+                яндекс, и тд
+              </li>
+              <li>
+                Можно подключить разные сервисы, формы (телеграм,
+                мейлчамп, crm)
+              </li>
+              <li>Адекватные цены тарифов</li>
+            </ul>
+          </div>
+          <div class="question-climber">
+            <div class="question-inner">
+              <div class="question-text">Какие сроки?</div>
+              <div class="question-status">
+                <img src="img/plus.svg" alt="Открыть или закрыть" />
+              </div>
+            </div>
+          </div>
+          <div class="question-climber">
+            <div class="question-inner">
+              <div class="question-text">Как происходит оплата?</div>
+              <div class="question-status">
+                <img src="img/plus.svg" alt="Открыть или закрыть" />
+              </div>
+            </div>
+          </div>
+          <div class="question-climber">
+            <div class="question-inner">
+              <div class="question-text">
+                Сколько правок можно внести?
+              </div>
+              <div class="question-status">
+                <img src="img/plus.svg" alt="Открыть или закрыть" />
+              </div>
+            </div>
+          </div>
+          <div class="question-climber">
+            <div class="question-inner">
+              <div class="question-text">
+                Работаете со срочными проектами?
+              </div>
+              <div class="question-status">
+                <img src="img/plus.svg" alt="Открыть или закрыть" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <h3 class="section-title feedback-title">Оставьте заявку</h3>
+        <p class="feedback-subtitle">
+          Я сам напишу вам, и сообщу все детали
+        </p>
+        <div class="feedback-formwrapper">
+          <form class="feedback-form">
+            <input
+              class="feedback-input"
+              type="text"
+              placeholder="Имя"
+            />
+            <input
+              class="feedback-input"
+              type="email"
+              placeholder="Почта"
+            />
+            <select name="service">
+              <option value="init" selected>Услуга</option>
+              <option value="usluga1">Услуга 1</option>
+              <option value="usluga2">Услуга 2</option>
+            </select>
+            <textarea
+              name="message-service"
+              placeholder="Комментарий"
+            ></textarea>
+            <button class="btn btn--filled feedback-btn">
+              Отправить сообщение
+            </button>
+          </form>
+          <ul class="feedback-socials">
+            <li class="feedback-socials__item">
+              <a class="feedback-socials__link" href="#">
+                <img src="img/fb.svg" alt="Фейсбук" />
+              </a>
+            </li>
+            <li class="feedback-socials__item">
+              <a class="feedback-socials__link" href="#">
+                <img src="img/tw.svg" alt="Твич" />
+              </a>
+            </li>
+            <li class="feedback-socials__item">
+              <a class="feedback-socials__link" href="#">
+                <img src="img/vk.svg" alt="Вконтакте" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="feedback-man">
+          <img src="img/man.png" alt="Программист" />
+        </div>
+        <div class="feedback-energy">
+          <img src="img/energy.png" alt="Энергия" />
+        </div>
+        <div class="feedback-chat">
+          <img src="img/chat-big.png" alt="Сообщение" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
